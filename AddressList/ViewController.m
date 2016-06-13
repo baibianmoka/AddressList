@@ -18,6 +18,7 @@
     [super viewDidLoad];
     UIView *view=[[UIView alloc]initWithFrame:[UIScreen mainScreen].applicationFrame];
     self.view = view;
+    self.view.backgroundColor = [UIColor redColor];
     
     
     _tableView = [[UITableView alloc]initWithFrame:view.bounds style:UITableViewStylePlain];
